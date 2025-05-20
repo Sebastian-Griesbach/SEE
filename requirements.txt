@@ -3,5 +3,5 @@ wandb
 numpy
 gymnasium[classic-control]
 gymnasium[mujoco]
-rl-athlete==0.1.1
+rl-athlete==0.1.2
 git+https://github.com/Sebastian-Griesbach/Gymnasium-Robotics.git

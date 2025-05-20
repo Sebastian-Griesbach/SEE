@@ -73,7 +73,7 @@ environment_map = {
     ): "GoalConverterWrappedAdverseLargePointMaze-v3",
 }
 
-# Hyperparameter sets, only includes the ones that are different from the default in Athlete 0.1.1
+# Hyperparameter sets, only includes the ones that are different from the default in Athlete 0.1.2
 # the default can be found here:
 # https://github.com/Sebastian-Griesbach/Athlete/blob/main/athlete/algorithms/sac/__init__.py
 # https://github.com/Sebastian-Griesbach/Athlete/blob/main/athlete/algorithms/td3/__init__.py

@@ -218,7 +218,7 @@ def make_td3_see_components(
 ) -> Tuple[DataCollector, UpdateRule, PolicyBuilder]:
     """Create the components for the TD3+SEE algorithm, given a configuration and environment
     information. The components are the data collector, update rule, and policy builder.
-    For more information refer to the documentation of Athlete 0.1.1.
+    For more information refer to the documentation of Athlete 0.1.2.
 
     Args:
         observation_space (Space): Observation space of the environment.

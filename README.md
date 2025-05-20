@@ -6,11 +6,13 @@ This repository contains code to reproduce all results of the paper
 
 # Installation
 
-Clone the repository and install all requirements from the `requirements.txt`.
+Clone the repository and install all requirements from the `requirements.txt`. We recommend using a virtual environment.
 
 ```bash
 git clone https://github.com/Sebastian-Griesbach/SEE.git
 cd SEE
+python -m venv env
+source env/bin/activate
 pip install -r requirements.txt
 ```
 
