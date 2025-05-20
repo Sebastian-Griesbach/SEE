@@ -1,0 +1,98 @@
+# register all custom environments
+import gymnasium as gym
+
+gym.register(
+    id="SparsePendulum-v1",
+    entry_point="environments.sparse_pendulum:SparsePendulumEnv",
+    max_episode_steps=200,
+)
+gym.register(
+    id="AdverseSparsePendulum-v1",
+    entry_point="environments.sparse_pendulum:AdverseSparsePendulumEnv",
+    max_episode_steps=200,
+)
+gym.register(
+    id="DenseLocalOptimaMountainCarContinuous-v0",
+    entry_point="environments.local_optima_continuous_mountain_car:DenseLocalOptimaContinuous_MountainCarEnv",
+    max_episode_steps=999,
+)
+gym.register(
+    id="SparseLocalOptimaMountainCarContinuous-v0",
+    entry_point="environments.local_optima_continuous_mountain_car:SparseLocalOptimaContinuous_MountainCarEnv",
+    max_episode_steps=999,
+)
+gym.register(
+    id="AdverseSparseLocalOptimaMountainCarContinuous-v0",
+    entry_point="environments.local_optima_continuous_mountain_car:AdverseSparseLocalOptimaContinuous_MountainCarEnv",
+    max_episode_steps=999,
+)
+gym.register(
+    id="SparseHalfCheetah-v5",
+    entry_point="environments.sparse_half_cheetah:SparseHalfCheetahEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="AdverseSparseHalfCheetah-v5",
+    entry_point="environments.sparse_half_cheetah:AdverseSparseHalfCheetahEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="SparseAnt-v5",
+    entry_point="environments.sparse_ant:SparseAntEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="AdverseSparseAnt-v5",
+    entry_point="environments.sparse_ant:AdverseSparseAntEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="SparseHopper-v5",
+    entry_point="environments.sparse_hopper:SparseHopperEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="AdverseSparseHopper-v5",
+    entry_point="environments.sparse_hopper:AdverseSparseHopperEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="SparseSwimmer-v5",
+    entry_point="environments.sparse_swimmer:SparseSwimmerEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="AdverseSparseSwimmer-v5",
+    entry_point="environments.sparse_swimmer:AdverseSparseSwimmerEnv",
+    max_episode_steps=1000,
+)
+gym.register(
+    id="GoalConverterWrappedFetchPickAndPlace-v4",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_fetch_pick_and_place_env",
+    max_episode_steps=200,
+)
+gym.register(
+    id="GoalConverterWrappedDenseFetchPickAndPlace-v4",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_dense_fetch_pick_and_place_env",
+    max_episode_steps=200,
+)
+gym.register(
+    id="GoalConverterWrappedAdverseFetchPickAndPlace-v4",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_adverse_fetch_pick_and_place_env",
+    max_episode_steps=200,
+)
+gym.register(
+    id="GoalConverterWrappedLargePointMaze-v3",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_large_point_maze_env",
+    max_episode_steps=800,
+)
+gym.register(
+    id="GoalConverterWrappedDenseLargePointMaze-v3",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_dense_large_point_maze_env",
+    max_episode_steps=800,
+)
+gym.register(
+    id="GoalConverterWrappedAdverseLargePointMaze-v3",
+    entry_point="environments.gymnasium_robotics:make_goal_observation_converter_wrapped_adverse_large_point_maze_env",
+    max_episode_steps=800,
+)

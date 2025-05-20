@@ -1,0 +1,7 @@
+tqdm
+wandb
+numpy
+gymnasium[classic-control]
+gymnasium[mujoco]
+rl-athlete==0.1.1
+git+https://github.com/Sebastian-Griesbach/Gymnasium-Robotics.git
