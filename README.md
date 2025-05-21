@@ -6,7 +6,7 @@ This repository contains code to reproduce all results of the paper
 
 # Installation
 
-Clone the repository and install all requirements from the `requirements.txt`. We recommend using a virtual environment.
+Clone the repository and install all requirements from the `requirements.txt`. We recommend using a virtual environment. The following shows an example installation:
 
 ```bash
 git clone https://github.com/Sebastian-Griesbach/SEE.git
@@ -15,6 +15,8 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
+This was tested with Python version `3.12.3`.
 
 # Usage
 
@@ -75,4 +77,21 @@ The code is optimized for readability and is fully documented with docstrings.
 
 Most environments are included in the `environments` folder. But the [Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics) environments are based on a [fork](https://github.com/Sebastian-Griesbach/Gymnasium-Robotics) of that repository, which alters the reward functions of the relevant environments.
 
-SAC+SEE and TD3+SEE are implemented using the [Athlete API](https://github.com/Sebastian-Griesbach/Athlete). For the baseline SAC and TD3 the Athlete implementations are used directly.
+SAC+SEE and TD3+SEE are implemented using the [Athlete](https://github.com/Sebastian-Griesbach/Athlete) API. For the baseline SAC and TD3 the Athlete implementations are used directly.
+
+# Cite us
+
+The paper of this work will be published at the Reinforcement Learning Journal. The missing information will be added when they are available.
+
+```bibtex
+@article{griesbach2025learning,
+    title={Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization},
+    author={Griesbach, Sebastian and D'Eramo, Carlo},
+    journal={Reinforcement Learning Journal},
+    volume={2},
+    pages={[page range when available]},
+    year={2025},
+    doi={[doi when available]},
+    publisher={Reinforcement Learning Journal}
+}
+```

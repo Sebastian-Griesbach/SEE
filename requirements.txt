@@ -1,7 +1,6 @@
 tqdm
 wandb
-numpy
-gymnasium[classic-control]
-gymnasium[mujoco]
+gymnasium[classic-control]==1.1.1
+gymnasium[mujoco]==1.1.1
 rl-athlete==0.1.2
-git+https://github.com/Sebastian-Griesbach/Gymnasium-Robotics.git
+git+https://github.com/Sebastian-Griesbach/Gymnasium-Robotics.git@66e589066d6c4425f58c90c065598a5890d561e5
