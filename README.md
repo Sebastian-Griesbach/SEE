@@ -2,7 +2,7 @@
 
 This repository contains code to reproduce all results of the paper
 
-**Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization**
+[Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization](https://rlj.cs.umass.edu/2025/papers/Paper126.html)
 
 # Installation
 
@@ -81,17 +81,11 @@ SAC+SEE and TD3+SEE are implemented using the [Athlete](https://github.com/Sebas
 
 # Cite us
 
-The paper of this work will be published at the Reinforcement Learning Journal. The missing information will be added when they are available.
-
 ```bibtex
 @article{griesbach2025learning,
     title={Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization},
     author={Griesbach, Sebastian and D'Eramo, Carlo},
     journal={Reinforcement Learning Journal},
-    volume={2},
-    pages={[page range when available]},
-    year={2025},
-    doi={[doi when available]},
-    publisher={Reinforcement Learning Journal}
+    year={2025}
 }
 ```
