@@ -86,6 +86,8 @@ SAC+SEE and TD3+SEE are implemented using the [Athlete](https://github.com/Sebas
     title={Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization},
     author={Griesbach, Sebastian and D'Eramo, Carlo},
     journal={Reinforcement Learning Journal},
+    volume={6},
+    pages={1140--1157},
     year={2025}
 }
 ```
