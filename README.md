@@ -4,6 +4,11 @@ This repository contains code to reproduce all results of the paper
 
 [Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization](https://rlj.cs.umass.edu/2025/papers/Paper126.html)
 
+Here you can find a presentation about this work:
+
+[![Watch the video](https://img.youtube.com/vi/vAnEt5MR0uA/hqdefault.jpg)](https://www.youtube.com/watch?v=vAnEt5MR0uA)
+
+
 # Installation
 
 Clone the repository and install all requirements from the `requirements.txt`. We recommend using a virtual environment. The following shows an example installation:
