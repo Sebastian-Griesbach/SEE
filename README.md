@@ -2,7 +2,7 @@
 
 This repository contains code to reproduce all results of the paper
 
-[Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization](https://rlj.cs.umass.edu/2025/papers/Paper126.html)
+[Learning to Explore in Diverse Reward Settings via Temporal-Difference-Error Maximization](https://rlj.org/papers/griesbach2025learning)
 
 Here you can find a presentation about this work:
 
